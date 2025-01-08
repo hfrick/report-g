@@ -13,3 +13,8 @@ Suggests:
     pak,
     producethis
 Encoding: UTF-8
+Settings/GHA: 
+    list(
+      result_branch = "gh-results",
+      output_dir = "output"
+    )
