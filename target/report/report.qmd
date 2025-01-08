@@ -1,7 +1,15 @@
 ---
 title: "report"
+format: html
 ---
 
-## Quarto
+## Minimal minimal report on not really anything yet
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+```{r}
+#| label: setup
+#| echo: false
+
+now <- Sys.time()
+```
+
+It is now `r now`.
