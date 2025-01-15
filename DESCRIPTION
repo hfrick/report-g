@@ -17,3 +17,5 @@ Settings/GHA:
       result_branch = "gh-results",
       output_dir = "output"
     )
+Remotes:
+  r-lib/producethis
